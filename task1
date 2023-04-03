@@ -1,2 +1,4 @@
 echo "Welcome to PROJECTSCHOOL 2.0">file1.txt
 echo "Cyber security session">>file1.txt
+ping google.com
+echo "110.192.250.142">>file1.txt 
