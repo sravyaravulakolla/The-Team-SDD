@@ -1,0 +1,11 @@
+Challenge:Find the key/password hidden in a text file key.txt
+
+Solution:
+ grep -o "[[:alnum:]]" key.txt | tr -d '\n'
+ 
+ Explanation:
+ In this command, grep -o "[[:alnum:]]" is used to match and display only the alphabetic characters and digits from key.txt, with each character on a separate line.
+ The tr -d '\n' part of the command is used to remove the newline characters (\n) from the output, effectively concatenating all the characters into a single line.
+ 
+ Output:
+PKey2030115bd38485e8b352f60f2b90f8a932ad0e95 
